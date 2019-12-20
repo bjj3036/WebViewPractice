@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/appbar_zoom"
+        android:icon="@drawable/ic_zoom"
+        android:title="Zoom"
+        app:showAsAction="ifRoom">
+        <!--        <menu>-->
+        <!--            <item-->
+        <!--                android:id="@+id/zoom_in"-->
+        <!--                android:title="확대" />-->
+        <!--            <item-->
+        <!--                android:id="@+id/zoom_out"-->
+        <!--                android:title="축소" />-->
+        <!--        </menu>-->
+    </item>
+    <item
+        android:id="@+id/appbar_lh"
+        android:icon="@drawable/ic_line_height"
+        android:title="LineHeight"
+        app:showAsAction="ifRoom">
+        <!--        <menu>-->
+        <!--            <item-->
+        <!--                android:id="@+id/line_up"-->
+        <!--                android:title="줄 간격 늘리기" />-->
+        <!--            <item-->
+        <!--                android:id="@+id/line_down"-->
+        <!--                android:title="줄 간격 줄이기" />-->
+        <!--        </menu>-->
+    </item>
+
+
+</menu>
